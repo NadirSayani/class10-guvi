@@ -1,0 +1,33 @@
+class person
+{constructor(fn="Nadir",ln="sayani",email="ns@s",age=21,pro="eng",city="mumbai",number="123456")
+    {this.fn=fn
+     this.ln=ln
+     this.email=email
+     this.age=age
+     this.pro=pro
+     this.city=city
+     this.number=number
+
+    }
+}
+
+let p1=new person()
+let p2=new person()
+let p3=new person()
+let p4=new person()
+let p5=new person()
+let p6=new person()
+let p7=new person()
+let p8=new person()
+let p9=new person()
+let p10=new person()
+
+let arr=[p1,p2,p3,p4,p5,p6,p7,p8,p9,p10]
+for(i in arr)
+{console.log(arr[i].fn)
+console.log(arr[i].ln)
+console.log(arr[i].email)
+console.log(arr[i].age)
+console.log(arr[i].pro)
+console.log(arr[i].city)
+console.log(arr[i].number)}
